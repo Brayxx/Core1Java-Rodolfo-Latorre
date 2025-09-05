@@ -2,13 +2,13 @@ import clases.Algoritmos;
 public class Aplicacion {
     public static void main(String[] args) {
         System.out.println("--- Prueba de esPar ---");
-        System.out.println("¿Es 4 un número par? " + Algoritmos.esPar(8));
-        System.out.println("¿Es 7 un número par? " + Algoritmos.esPar(15));
+        System.out.println("¿Es 4 un número par? " + Algoritmos.esPar(4));
+        System.out.println("¿Es 7 un número par? " + Algoritmos.esPar(7));
         System.out.println(" ");
 
         System.out.println("--- Prueba de esPrimo ---");
         System.out.println("¿Es 7 un número primo? " + Algoritmos.esPrimo(7));
-        System.out.println("¿Es 10 un número primo? " + Algoritmos.esPrimo(11));
+        System.out.println("¿Es 10 un número primo? " + Algoritmos.esPrimo(10));
         System.out.println(" ");
 
         System.out.println("--- Prueba de stringEnReversa ---");
